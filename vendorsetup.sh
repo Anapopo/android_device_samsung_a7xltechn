@@ -1,5 +1,5 @@
-add_lunch_combo aosp_a7lte-userdebug
-add_lunch_combo aosp_a7lte-eng
+add_lunch_combo aosp_a7xltechn-userdebug
+add_lunch_combo aosp_a7xltechn-eng
 
 # Run device patches on the tree
-sh device/samsung/a7lte/patches/apply/install-common.sh
+sh device/samsung/a7xltechn/patches/apply/install-common.sh

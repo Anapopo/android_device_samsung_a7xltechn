@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/a7lte
+LOCAL_PATH := device/samsung/a7xltechn
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Proprietary files
-$(call inherit-product, vendor/samsung/a7lte/a7lte-vendor.mk)
+$(call inherit-product, vendor/samsung/a7xltechn/a7xltechn-vendor.mk)
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal

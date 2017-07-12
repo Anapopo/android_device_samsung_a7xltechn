@@ -14,5 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a7lte.mk
+    $(LOCAL_DIR)/aosp_a7xltechn.mk
 

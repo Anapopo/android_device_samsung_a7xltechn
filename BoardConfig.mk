@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a7lte
+DEVICE_PATH := device/samsung/a7xltechn
 
 # Inherit from samsung msm8939-common
 include device/samsung/msm8939-common/BoardConfigCommon.mk
@@ -23,11 +23,11 @@ include device/samsung/msm8939-common/BoardConfigCommon.mk
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_a7lte_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_a7xltechn_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/a7lte
+TARGET_KERNEL_SOURCE := kernel/samsung/a7xltechn
 
-# Partition Info
+# Partition Info :TODO
 BOARD_BOOTIMAGE_PARTITION_SIZE := 13631488
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 15728640
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2587717795
@@ -69,4 +69,4 @@ COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # inherit from the proprietary version
--include vendor/samsung/a7lte/BoardConfigVendor.mk
+-include vendor/samsung/a7xltechn/BoardConfigVendor.mk
