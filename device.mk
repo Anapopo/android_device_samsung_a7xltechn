@@ -14,6 +14,11 @@
 # limitations under the License.
 #
 
+LOCAL_PATH := device/samsung/a7xltechn
+
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
 # Proprietary files
 $(call inherit-product, vendor/samsung/a7xltechn/a7xltechn-vendor.mk) # TODO: use vendor files
 
