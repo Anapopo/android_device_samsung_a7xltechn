@@ -15,7 +15,7 @@
 #
 
 # Proprietary files
-$(call inherit-product, vendor/samsung/a7lte/a7lte-vendor.mk)
+$(call inherit-product, vendor/samsung/a7xltechn/a7xltechn-vendor.mk)
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
