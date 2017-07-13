@@ -34,4 +34,4 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_PERSISTIMAGE_PARTITION_SIZE := 4089446
 
 # inherit from the proprietary version
--include vendor/samsung/a7xltechn/BoardConfigVendor.mk
+-include vendor/samsung/a7xltechn/BoardConfigVendor.mk # TODO:use vendor files
