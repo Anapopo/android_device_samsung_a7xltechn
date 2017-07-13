@@ -38,5 +38,9 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_USES_MMC_UTILS := true
 BOARD_HAS_NO_MISC_PARTITION := true
 
+# Camera
+TARGET_PROVIDES_CAMERA_HAL := true
+USE_DEVICE_SPECIFIC_CAMERA := true
+
 # inherit from the proprietary version
 include vendor/samsung/a7xltechn/BoardConfigVendor.mk # TODO:use vendor files
