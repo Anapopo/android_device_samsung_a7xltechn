@@ -49,5 +49,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/acdb/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     $(LOCAL_PATH)/audio/Tfa9895.cnt:system/etc/Tfa9897.cnt
 
+# Wifi
+ PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+
 # Inherit from msm8939-common
 $(call inherit-product, device/samsung/msm8939-common/msm8939.mk)
