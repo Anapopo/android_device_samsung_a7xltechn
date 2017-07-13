@@ -33,5 +33,10 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 202375168
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_PERSISTIMAGE_PARTITION_SIZE := 4089446
 
+# File System
+BOARD_HAS_LARGE_FILESYSTEM := true
+BOARD_USES_MMC_UTILS := true
+BOARD_HAS_NO_MISC_PARTITION := true
+
 # inherit from the proprietary version
--include vendor/samsung/a7xltechn/BoardConfigVendor.mk # TODO:use vendor files
+include vendor/samsung/a7xltechn/BoardConfigVendor.mk # TODO:use vendor files
