@@ -1,0 +1,2 @@
+add_lunch_combo cm_a7xltechn-userdebug
+add_lunch_combo cm_a7xltechn-eng
