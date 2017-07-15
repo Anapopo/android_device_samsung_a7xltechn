@@ -39,6 +39,7 @@ lib/libsamsungVoipResampler.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
+etc/Tfa9897.cnt
 
 # Bluetooth
 bin/btnvtool

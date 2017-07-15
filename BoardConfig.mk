@@ -20,9 +20,10 @@ DEVICE_PATH := device/samsung/a7xltechn
 include device/samsung/msm8939-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_a7xltechn_defconfig # TODO:mod?
+TARGET_KERNEL_CONFIG := cyanogenmod_a7xltechn_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/a7xltechn
+# ../../../prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-
 
 # Partition Info TODO:size right?
 BOARD_BOOTIMAGE_PARTITION_SIZE := 13631488

@@ -1,0 +1,56 @@
+# from device/samsung/a7xltechn/system.prop
+
+
+# msm8916
+DEVICE_PROVISIONED=1
+debug.sf.hw=1
+debug.egl.hw=1
+debug.composition.type=c2d
+persist.hwc.mdpcomp.enable=true
+debug.mdpcomp.logs=0
+dalvik.vm.heapsize=36m
+dev.pm.dyn_samplingrate=1
+persist.demo.hdmirotationlock=false
+
+#ro.hdmi.enable=true
+#tunnel.decode=true
+#tunnel.audiovideo.decode=true
+#lpa.decode=false
+#lpa.use-stagefright=true
+#persist.speaker.prot.enable=false
+
+# cne module
+persist.cne.feature=0
+persist.cne.dpm=0
+persist.dpm.feature=0
+
+# MM modules
+media.stagefright.enable-player=true
+media.stagefright.enable-http=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-scan=true
+media.swhevccodectype=0
+mmp.enable.3g2=true
+media.aac_51_output_enabled=true
+#codecs: DivX DivXHD AVI AC3 ASF AAC QCP DTS 3G2 MP2TS
+mm.enable.qcom_parser=3183219
+ro.data.large_tcp_window_size=true
+
+# Default to AwesomePlayer
+media.stagefright.use-awesome=false
+
+# time-services
+persist.timed.enable=true
+
+# system prop for opengles version
+# 196608 is decimal for 0x30000 to report version 3
+ro.opengles.version=196608
+
+# cabl
+ro.qualcomm.cabl=0
+
+# System props for bluetooh
+# System prop to turn on hfp client
+bluetooth.hfp.client=1
