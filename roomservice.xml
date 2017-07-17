@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- CyanogenMod Repository -->
+<project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" revision="cm-13.0" />
+<project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-13.0" />
+<project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-13.0"/>
+<project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0"/>
+
+<!-- Device -->
+<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-13.0" />
+<project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="cm-13.0" />
+<project path="device/samsung/msm8939-common" name="sergeysdk1/android_device_samsung_msm8939-common" remote="github" revision="cm-13.0" />
+<project path="device/samsung/a7xltechn" name="Anapopo/android_device_samsung_a7xltechn" remote="github" revision="cm-13.0" />
+		    
+<!-- Vendor -->
+<project path="vendor/samsung/a7xltechn" name="Anapopo/android_vendor_samsung_a7xltechn" remote="github" revision="cm-13.0" />
+
+<!-- Kernel -->
+<project path="kernel/samsung/a7xltechn" name="Anapopo/android_kernel_samsung_a7xltechn" remote="github" revision="cm-13.0" />
+</manifest>
+
+
